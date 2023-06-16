@@ -15,7 +15,7 @@ public class SalaryCalculator {
            float result = salary-taxes;
            System.out.println(result);
        }
-       else{
+       else if (salary<0){
            System.out.println("wrong input!");
        }
     }
